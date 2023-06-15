@@ -2,7 +2,8 @@ function threeSum(arr, target) {
 // write your code
 	for(let i=0;i<arr.length;i++){
 		
-		let twoSum(i+1,arr.length-1,arr,target-arr[i])
+		let ans= twoSum(i+1,arr.length-1,arr,target-arr[i])
+		console.log(ans)
 	}
 
   
